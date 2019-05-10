@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+
+
+		<title>Home</title>
+	
+	<style type="text/css">
+	
+		 body{
+		 animation: colorchange 5s;
+		-webkit-animation:colorchange 5s;
+		  animation-interation-count: infinite;
+		 }
+		 
+		@keyframes colorchange{
+		 0% {background-color: #b5f2b0;}
+		 50% {background-color: #b0e0e6;}
+		 100% {background-color: salmon;}
+		
+		 }
+		 
+		 @-webkit-keyframes colorchange{
+		 0% {background-color: #b5f2b0;}
+		 50% {background-color: #b0e0e6;}
+		 100% {background-color: salmon;}
+		 }
+		#barra { position: absolute
+		height:130px;
+		width:auto;
+		background-color:#ad87b0;
+		}	
+		
+        #search {position: absolute;
+            top:5px;
+            left: 85%;
+            }
+         #likes {position: absolute;
+        top: 5px;
+        left: 90%;
+        } 
+
+		#logo { position:relative;
+		top: 14px;
+		left: 45%;
+        height: 80px;
+        width: 80px;
+			}
+
+		
+		#menu { position: relative;
+			
+		height:45px;
+		width:auto;
+		background-color:#340034;
+		top: 14px;
+		}
+		
+		h1 { color:#000000;
+		font-size:25px;
+			}	
+
+           
+		
+			#home { position:absolute;
+		top:-10px;
+		left:15%;
+        color: #ffffff
+			}	
+			a:hover #home {
+			color:orange
+			}
+			
+		#humans{ position:absolute;
+		top:-10px;
+		left:30%;
+        color: #ffffff
+			}
+			
+			a:hover #humans {
+			color:orange
+			}
+			
+		#animals { position:absolute;
+		top:-10px;
+		left:45%;
+        color: #ffffff
+			}	
+			
+			a:hover #animals{
+			color:orange
+			}
+		
+		#backgrounds { position:absolute;
+		top:-10px;
+		left:60%;
+        color: #ffffff
+			}	
+			
+			a:hover #backgrounds{
+			color:orange
+			}
+		
+		#color{ position:absolute;
+		top:-10px;
+		left:75%;
+        color: #ffffff
+			}
+			
+			a:hover #color {
+			color:orange
+			}
+		
+		
+		#me { position:absolute;
+		top:-10px;
+		left:90%;
+        color: #ffffff
+			}	
+			
+			a:hover #me{
+			color:orange
+			}
+	
+		
+		
+		h2 { position:absolute;
+            top: 35%;
+			left: 45%;
+			color: #1C222F;
+			font-size: 30px;
+			}
+		img { position: absolute;
+			left: 42%;
+		}
+		
+        #video1 { position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 500px;
+        height: 400px;
+        }
+        #video2 { position: absolute;
+        top: 65%;
+        left: 30%;
+        width: 500px;
+        height: 400px;
+        }
+
+		.here {
+		top: 250px;
+		left: 8px;
+		height: 700px;
+		width: 700px;
+		} 
+		
+		#deva {
+			top: 250px;
+		}
+		
+		.dev {
+			top: 310px;
+		}
+		#insta {
+			top: 600px;
+		}
+		
+		.insta {
+			top: 670px;
+		}
+		
+		#fb {
+			top: 940px;
+		}
+		
+		.fb {
+			top: 1010px;
+		}
+		
+	
+	
+	
+	
+	</style>
+	
+</head>
+
+<body>
+	
+	<div id="barra"> 
+    <img src="pose.png" id="logo"/>
+    <div id="search">
+            <a href= "search.html"> <img src="search.png" width="30" height="30"> </a>
+    </div>
+    <div id="likes">
+            <a href= "likes.html"><img src="like.png" width="30" height="30"> </a>
+    </div>
+       
+    </div>
+
+  
+    
+	<div id="menu" >
+    
+    	<div>
+        	 <a href= "home.html"> <h1 id="home"> Home </h1> </a>
+        </div>
+        
+        <div>
+        	<a href= "humans.html"> <h1 id="humans"> Humans </h1> </a>
+        </div>
+        
+        <div>
+        	<h1 id="animals"> Animals</h1>
+        </div>
+        
+        <div>
+        	<h1 id="backgrounds">Backgrounds </h1>
+        </div>
+        
+        <div>
+        	<h1 id="color"> Color </h1>
+        </div>
+        
+        <div>
+			<a href= "me.html"> <h1 id="me"> Me</h1>  </a>
+        </div>
+        
+        <h2>New Videos</h2>
+    </div>
+	  <div id="video1">
+                <figure>
+            <iframe width="550" height="400"
+            src="https://www.youtube.com/watch?v=WQWp8kc-EVw">
+            </iframe>
+        </figure>
+        </div>
+
+        <div id="video2">
+                <figure>
+            <iframe width="550" height="400"
+            src="https://www.youtube.com/watch?v=WQWp8kc-EVw">
+            </iframe>
+        </figure>
+        </div>
+	
+</body>
+</html>
